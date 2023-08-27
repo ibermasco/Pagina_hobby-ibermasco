@@ -1,0 +1,117 @@
+/* Estilos para el cuerpo y fuente */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para la barra de menú */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los enlaces de la barra de menú */
+.navbar a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 14px 16px;
+}
+
+/* Estilos para el título en la barra de menú */
+.navbar .navbar-brand {
+    font-size: 20px;
+    color: blanchedalmond;
+    padding: 14px 16px;
+}
+
+/* Cambio de color al pasar el ratón por encima de los enlaces */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Estilos para la sección de bienvenida */
+.welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 60px 0;
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/barberia1_0.jpg');
+    background-size: cover;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.welcome-text {
+    flex: 1;
+    padding: 4rem;
+}
+
+.welcome-image {
+    flex: 1;
+    justify-content: flex-end;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: auto;
+}
+
+/* Estilos para la sección "Acerca de" */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.about-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.about-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos para elementos de footer */
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+}
+
+a:hover {
+    color: #0D6EFD !important;
+}
+
+i {
+    font-size: 25px;
+}
